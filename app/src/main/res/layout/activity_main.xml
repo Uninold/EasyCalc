@@ -10,5 +10,121 @@
 
 
 
+    <EditText
+        android:id="@+id/fNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:hint="@string/first"
+        android:textColorHint="#E0E0E0"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/sNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/second"
+        android:textColorHint="#E0E0E0"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:background="#616161"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="@string/add"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="220dp" />
+        <Button
+            android:id="@+id/subBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="@string/sub"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="220dp" />
+        <Button
+            android:id="@+id/cBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/reset"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="220dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/mulBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:layout_height="90dp"
+            android:text="@string/mul"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/divBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/div"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="@string/exit"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="321dp" />
+    </LinearLayout>
 
 </LinearLayout>
